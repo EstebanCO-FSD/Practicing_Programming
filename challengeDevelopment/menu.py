@@ -9,7 +9,8 @@ def showMenu():
         ],
         "\nIntermediate Level": [
             "4. Palíndromos",
-            "5. Cálculo de factorial"
+            "5. Cálculo de factorial",
+            "6. Fibonacci"
         ],
         "\nAdvanced Level": [],
         "\nExit": [
@@ -44,6 +45,8 @@ def main():
             os.system("python pyDevChallenges/il_palindrome.py")
         elif option == "5":
             os.system("python pyDevChallenges/il_factorialCalculator.py")
+        elif option == "6":
+            os.system("python pyDevChallenges/il_fibonacci.py")
         elif option.lower() == "x":
             print("\nPrograma terminado!")
             break
